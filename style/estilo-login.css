@@ -1,0 +1,216 @@
+body {
+    background-color: hsl(214, 90%, 53%);
+    font-family: sans-serif;
+}
+
+.login-box {
+    background: #57e6f0;
+    width: 320px;
+    height: 430px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10%;
+}
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: sans-serif;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+input[type="email"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    background: hsl(176, 100%, 3%);
+    color: #9ce660;
+    border-radius: 20px;
+    position: absolute;
+    top: 78%;
+    left: 17%;
+    font-size: 18px;
+    height: 30px;
+    width: 200px;
+}
+
+.o {
+    background-color: #51e6d9;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 0px;
+    color: rgb(103, 208, 226);
+}
+
+.registro-box {
+    background: rgb(21, 1, 47);
+    width: 320px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10%;
+}
+
+input[id="n"] {
+    border: none;
+    border-bottom: 1px solid #6ed0e9;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[id="c"] {
+    border: none;
+    border-bottom: 1px solid #6ed0e9;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[id="cel"] {
+    border: none;
+    border-bottom: 1px solid #6ed0e9;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+input[id="contra"] {
+    border: none;
+    border-bottom: 1px solid #42c8e6;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: hsl(0, 81%, 59%);
+    font-size: 16px;
+}
+
+.o {
+    background-color: rgb(221, 36, 36);
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 0px;
+    color: rgb(85, 218, 218);
+}
+
+.registro-box {
+    background: rgb(0, 0, 0);
+    width: 320px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 1%;
+}
+
+input[id="registrar"] {
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 150;
+    background-image: linear-gradient(rgb(111, 111, 211), rgb(6, 82, 126));
+    color: #fff;
+    font-size: 18px;
+    border-radius: 1px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+
+.i {
+    background: rgb(21, 1, 47);
+    position: absolute;
+    top: 90%;
+    left: 23%;
+}
+
+.titulo {
+    background-image: linear-gradient(rgb(111, 111, 211), rgb(6, 82, 126));
+    width: 320px;
+    top: 3.7%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 20px 90px;
+    border-radius: 1%;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(87, 7, 7);
+}
+
+.aler {
+    position: relative;
+    border: 1px solid transparent;
+    color: hsl(187, 87%, 56%);
+    background-color: hsl(0, 79%, 68%);
+    border-color: #d4afaf;
+    top: 50%;
+    left: 40%;
+    height: 30px;
+    width: 260;
+}
